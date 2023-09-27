@@ -81,7 +81,7 @@ function App() {
         </div>
       }
       <div className='mb-3'>  
-      <TextField className='w-100' id="outlined-basic" label="Rate of interest (p.a) %" variant="outlined" value={rate || ""} name='rate' onChange={(e)=>validateInput(e)}/>
+      <TextField className='w-100'  id="outlined-basic" label="Rate of interest (p.a) %" variant="outlined" value={rate || ""} name='rate' onChange={(e)=>validateInput(e)}/>
       </div>
       {
         !isRatevalid &&
